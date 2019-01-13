@@ -1,11 +1,11 @@
-import React, { Component } from "react";
+import React from "react";
+import RootComponent from "./app/RootComponent";
+import AppComponent from "./app/AppComponent";
 
 export default () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>Coucou</p>
-      </header>
-    </div>
+    <RootComponent>
+      <AppComponent />
+    </RootComponent>
   );
 };
